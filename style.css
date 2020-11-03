@@ -1,0 +1,331 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+body {
+ 
+  max-width: 960px;
+  min-width: 960px;
+  margin: 0 auto;
+  background-color: #ededed;
+}
+header {
+  width: 100%;
+  height: 101px;
+  background-color: #fff;
+  margin: 10px 0 30px;
+}
+.top-part-head, nav {
+  margin-left: 170px; /*ширина блока с логотипом*/
+}
+.logo {
+  height: 100%;
+  width: 170px;
+  padding: 1px 11px 3px 14px;
+  box-sizing: border-box;
+  float: left;
+}
+.logo img {
+  width: 100%;
+}
+.top-part-head {
+  display: flex;
+}
+.top-part-head > div {
+  height: 50px;
+  border-left: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+.tel {
+  width: 234px;
+  display: flex;
+  justify-content: space-around;
+}
+.tel p {
+  color: #323232;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.03px;
+  line-height: 21px;
+}
+.tel p:last-of-type {
+  font-size: 11px;
+  line-height: 12px;
+}
+.tel a {
+  display: block;
+  text-align: center;
+  width: 53px;
+  height: 30px;
+  color: #323232;
+  font-family: "AG Futura";
+  font-size: 14px;
+}
+
+.tel a:hover {
+  text-decoration: none;
+}
+
+.search {
+  width: 320px;
+}
+.search input {
+  margin-top: -5px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-style: none;
+  background: url(image/header/icon-search.png) no-repeat 90% center;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.search input:focus {
+  outline: none;
+  background-image: none;
+  transition: background-image 1s linear;
+}
+
+.basket {
+  width: 137px;
+  color: #323232;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding-left: 5px;
+}
+.basket p {
+  text-align: right;
+  width: 60px;
+}
+.basket a {
+  display: block;
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+.basket a:hover img {
+  width: 105%;
+  height: 105%;
+}
+
+
+.sing-in {
+  width: 100px;
+  box-sizing: border-box;
+  padding-left: 13px;
+}
+.sing-in p {
+  padding-top: 5px;
+}
+.sing-in a {
+  display: block;
+  float: right;
+  margin-top: -20px;
+  margin-right: 17px;
+}
+.sing-in a:hover img {
+  width: 105%;
+  height: 105%;
+}
+
+nav {
+  height: 50px;
+}
+nav ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #323232;
+  line-height: 50px;
+  border-left: 1px solid #ededed;
+  width: 156px;
+}
+nav a:hover  {
+  box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.1);
+}  
+nav a:active {
+  box-shadow: inset 0px 3px 5px 1px rgba(87, 85, 85, 0.125);
+}
+
+
+aside {
+  width: 310px;
+  float: left;
+  background-color: #fff;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+aside h2 {
+  width: 85%;
+  margin-top: 24px;
+  margin-left: 21px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #ededed;
+  color: #323232;
+  font-family: "AG Futura";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.03px;
+}
+aside ul {
+  list-style-type: none;
+  margin-left: 19px;
+}
+aside a {
+  text-decoration: none;
+  color: #323232;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+}
+aside a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+  float: right;
+  width: 630px;
+}
+.navig {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 10px;
+  border-bottom: 1px solid #ededed;
+}
+main h2 {
+  width: 480px;
+  float: left;
+  color: #323232;
+  font-family: "AG Futura";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 22px;
+  border-bottom: 1px solid #ededed;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.sort {
+  float: right;
+  width: 149px;
+  height: 30px;
+  padding-top: 10px;
+  border-left: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+.sort select{
+  border-style: none;
+  box-sizing: border-box;
+  padding-left: 10px;
+  
+}
+.sort select:focus {
+  outline: none;
+}
+#clr {
+  clear: both;
+}
+
+.news {
+  width: 480px;
+  margin-left: 152px;
+}
+
+.novost {
+  padding: 26px 0 29px;
+  border-bottom: 1px solid #ededed;
+}
+.novost:last-of-type {
+  border-bottom-style: none;
+}
+.perecl-str {
+  text-align: center;
+}
+
+footer {
+  background-color: #fff;
+  margin-top: 40px;
+  height: 132px;
+}
+footer > div, address {
+  border-left: 1px solid #ededed;
+  display: inline-block;
+  height: 142px;
+  vertical-align: top;
+}
+footer div:first-child {
+  border-style: none;
+}
+.logo-cpy {
+  padding-top: 15px;
+  width: 207px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.logo-cpy p {
+  color: #000000;
+  font-family: "AG Futura";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15.66px;
+}
+.foot-nav {
+  width: 214px;
+}
+.foot-nav ul {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.foot-nav a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.foot-nav a:hover {
+  text-decoration: underline;
+}
+.vk {
+  width: 227px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+address {
+  width: 298px;
+  box-sizing: border-box;
+}
+address div {
+  padding: 12px 0 0;
+  padding-left: 10px;
+}
+address p{
+  color: #000000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+ 
+ 
+}
+
